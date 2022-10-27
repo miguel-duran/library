@@ -1,0 +1,28 @@
+.container {
+  background-color: cyan;
+  height: 80vh;
+  width: 80vw;
+  margin: auto;
+}
+
+.card-container {
+  background-color: orchid;
+  height: 90%;
+  width: 90%;
+}
+
+.card {
+  height: 40%;
+  width: 20%;
+  background-color: orangered;
+  margin: 2px;
+  display: inline-block;
+}
+
+#new-book-form {
+  visibility: hidden;
+}
+
+#bookTitle:invalid {
+  border: 1px solid red;
+}
